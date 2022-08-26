@@ -1,0 +1,10 @@
+
+levels/
+meshes/
+sounds/
+spawns/
+*.graph
+*.dds
+*.ogm
+*.log
+*.xr
