@@ -1,0 +1,4 @@
+<ui_texture>
+    <file_name>ui\ui_hud_</file_name>
+    <texture id="ui_inv_icon_havka" x="0" y="0" width="18" height="18" />
+</ui_texture>
