@@ -11,7 +11,7 @@
 			<texture>ui_inv_icon_health_restore_speed</texture>
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
-		<value x="140" y="0" width="30" height="18" magnitude="100" color_mode="1" unit_str="%">
+		<value x="190" y="0" width="30" height="18" magnitude="100" color_mode="1" unit_str="%">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</boost_health>
@@ -21,7 +21,7 @@
 			<texture>ui_inv_icon_bleeding_restore_speed</texture>
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
-		<value x="140" y="0" width="30" height="18" magnitude="100" color_mode="2" unit_str="%">
+		<value x="190" y="0" width="30" height="18" magnitude="100" color_mode="2" unit_str="%">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</boost_bleeding>
@@ -31,7 +31,7 @@
 			<texture>ui_inv_icon_power_restore_speed</texture>
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
-		<value x="140" y="0" width="30" height="18" magnitude="100" color_mode="1">
+		<value x="190" y="0" width="30" height="18" magnitude="100" color_mode="1">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</boost_power>
@@ -42,7 +42,7 @@
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
 <!--		<texture_minus>ui_am_prop_radio_restore</texture_minus> -->
-		<value x="140" y="0" width="30" height="18" magnitude="100" color_mode="2" unit_str="%">
+		<value x="190" y="0" width="30" height="18" magnitude="100" color_mode="2" unit_str="%">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</boost_radiation>
@@ -52,17 +52,27 @@
 			<texture>ui_inv_icon_satiety_restore_speed</texture>
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
-		<value x="140" y="0" width="30" height="18" magnitude="100" color_mode="1" unit_str="%">
+		<value x="190" y="0" width="30" height="18" magnitude="100" color_mode="1" unit_str="%">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</boost_satiety>
+	
+	<item_alcohol x="0" y="0" width="257" height="18" >
+		<caption x="0" y="0" width="257" height="18" complex_mode="0">
+			<texture>ui_inv_icon_alcohol</texture>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="190" y="0" width="30" height="18" magnitude="1" show_sign="0">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</item_alcohol>
 	
 	<item_portions x="0" y="0" width="257" height="18" >
 		<caption x="0" y="0" width="257" height="18" complex_mode="0">
 			<texture>ui_inv_icon_havka</texture>
 			<text font="letterica16" vert_align="c" x="22" y="0"/>
 		</caption>
-		<value x="140" y="0" width="30" height="18" magnitude="1" show_sign="0">
+		<value x="190" y="0" width="30" height="18" magnitude="1" show_sign="0">
 			<text font="letterica16" vert_align="c"/>
 		</value>
 	</item_portions>
