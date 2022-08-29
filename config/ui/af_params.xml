@@ -1,64 +1,141 @@
-
-	<af_params x="0" y="-8" width="257" height="1">
-		<static_health_restore_speed x="0" y="0" width="257" height="20" complex_mode="1">
+<af_params x="0" y="0" width="217" height="18">
+    <prop_line x="0" y="-8" width="208" height="9">
+    </prop_line>
+	
+	<descr_list x="13" y="63" width="288" height="131" always_show_scroll="0" right_ident="10" left_ident="20" fit_to_height="1">
+		<font font="letterica16" color="ui_6"/>
+	</descr_list>
+	
+	<health_restore_speed x="0" y="0" width="257" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_health_restore_speed</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_health_restore_speed>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</health_restore_speed>
 
-		<static_radiation_restore_speed x="0" y="0" width="257" height="20" complex_mode="1">
+	<radiation_restore_speed x="0" y="0" width="257" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_radiation_restore_speed</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_radiation_restore_speed>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+<!--		<texture_minus>ui_am_prop_radio_restore</texture_minus> -->
+		<value x="140" y="0" width="30" height="18" color_mode="2">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</radiation_restore_speed>
 
-		<static_satiety_restore_speed x="0" y="0" width="257" height="20" complex_mode="1">
+	<satiety_restore_speed x="0" y="0" width="214" height="18" >
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_satiety_restore_speed</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_satiety_restore_speed>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</satiety_restore_speed>
 
-		<static_power_restore_speed x="0" y="0" width="257" height="20" complex_mode="1">
+	<power_restore_speed x="0" y="0" width="214" height="18" >
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_power_restore_speed</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_power_restore_speed>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</power_restore_speed>
 
-		<static_bleeding_restore_speed x="0" y="0" width="257" height="20" complex_mode="1">
+	<bleeding_restore_speed x="0" y="0" width="214" height="18" >
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_bleeding_restore_speed</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_bleeding_restore_speed>
-
-		<static_burn_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="2" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</bleeding_restore_speed>
+	
+	<burn_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_burn_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_burn_immunity>
-		<static_strike_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</burn_immunity>
+	<strike_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_strike_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_strike_immunity>
-		<static_shock_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+		</strike_immunity>
+	<shock_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_shock_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_shock_immunity>
-		<static_wound_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</shock_immunity>
+	<wound_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_wound_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_wound_immunity>
-		<static_radiation_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</wound_immunity>
+	<radiation_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_radiation_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_radiation_immunity>
-		<static_telepatic_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</radiation_immunity>
+	<telepatic_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_telepatic_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_telepatic_immunity>
-		<static_chemical_burn_immunity x="0" y="0" width="257" height="20" complex_mode="1">
-			<texture>ui_inv_icon_chemical_burn_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>			
-		</static_chemical_burn_immunity>
-		<static_explosion_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</telepatic_immunity>
+	<chemical_burn_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
+			<texture>ui_icons_newPDA_showpers_e</texture>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</chemical_burn_immunity>
+	<explosion_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_explosion_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_explosion_immunity>
-		<static_fire_wound_immunity x="0" y="0" width="257" height="20" complex_mode="1">
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</explosion_immunity>
+	<fire_wound_immunity x="0" y="0" width="214" height="18">
+		<caption x="0" y="0" width="257" height="18">
 			<texture>ui_inv_icon_fire_wound_immunity</texture>
-			<text font="letterica16" x="21" y="2"/>
-		</static_fire_wound_immunity>
-	</af_params>
+			<text font="letterica16" vert_align="c" x="22" y="0"/>
+		</caption>
+		<value x="140" y="0" width="30" height="18" color_mode="1" unit_str="%">
+			<text font="letterica16" vert_align="c"/>
+		</value>
+	</fire_wound_immunity>
+</af_params>
